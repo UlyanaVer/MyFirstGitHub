@@ -14,5 +14,6 @@ public class Main {
         Shape transformed = new MoveBy(-30, 0).transform(square);
         canvas.draw(transformed);
         canvas.print();
+
     }
 }
